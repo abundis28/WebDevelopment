@@ -1,0 +1,18 @@
+.seccion {
+    background-color: dimgray;
+    text-align: center;
+    width: 80%;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 5rem;
+}
+
+p {
+    color: white;
+    font-size: 10 rem;
+}
+
+#texto:hover{
+    color: yellow;
+    font-size: 1.5rem;
+}
