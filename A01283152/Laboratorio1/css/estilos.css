@@ -3,29 +3,20 @@ body {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.navbar {
-    text-align: center;
-    width: 100;
-    background-color: white;
-}
-
-.navbar a {
-    color: blue;
-}
-
 .formulario {
     background-color: snow;
-    width: 60%;
-    line-height: 30px;
-    margin: auto;
-    border-radius: 10px;
-    text-align: center;
+    width: 70%;
+    line-height: 220%;
+    border-radius: 5px;
 }
 
-h1 {
-    color: orange;
-    font: bolder;
-    margin: 0 auto;
+.center_obj {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 #title_form {
@@ -34,7 +25,8 @@ h1 {
     padding-top: 4%;
     padding-bottom: 3%;
     margin: 0;
-    color: orange;
+    color: gray; 
+    font-size: 1.8rem;
 }
 
 .formulario input {
@@ -61,30 +53,32 @@ h1 {
     width: 100%;
     padding-bottom: 5%;
     margin: 0.9% auto;
-    font-size: 0.8em;
     text-align: justify;
+    display: flex;
+    justify-content: space-between;
 }
 
 #footer_text{
-    width: 100;
-    font-size: 0.9rem;
+    font-size: 0.75rem;
+    display: inline-flex;
+    flex: 1;
 }
 
 #register_button_text {
     margin: 5% 0;
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 
 #footer_register_form button {
-    width: 100%;
+    width: 30%;
     padding: 0px 15px;
     color: white;
     background-color: orange;
     border-color: orange;
     border-radius: 5px;
     margin: auto;
+    display: inline-flex;
     text-align: center;
-    display: inline-block;
 }
 
 form {
