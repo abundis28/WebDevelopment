@@ -8,6 +8,7 @@ import { AboutComponent } from './components/about/about.component';
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { ParentcomponentComponent } from './components/parentcomponent/parentcomponent.component';
 import { ChildcomponentComponent } from './components/childcomponent/childcomponent.component';
+import { NgforComponent } from './component/ngfor/ngfor.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ChildcomponentComponent } from './components/childcomponent/childcompon
     AboutComponent,
     NavbarComponent,
     ParentcomponentComponent,
-    ChildcomponentComponent
+    ChildcomponentComponent,
+    NgforComponent
   ],
   imports: [
     BrowserModule,
