@@ -4,12 +4,14 @@ import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
 import { ParentcomponentComponent } from './components/parentcomponent/parentcomponent.component';
 import { ChildcomponentComponent } from './components/childcomponent/childcomponent.component';
+import { NgforComponent } from './components/ngfor/ngfor.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent},
   { path: 'about', component: AboutComponent},
   { path: 'parentcomponent', component: ParentcomponentComponent},
   { path: 'childcomponent', component: ChildcomponentComponent},
+  { path: 'ngfor', component: NgforComponent},
   { path: '', pathMatch: 'full', redirectTo: 'home'},
   { path: '**', pathMatch: 'full', redirectTo: 'home'},
 ];
