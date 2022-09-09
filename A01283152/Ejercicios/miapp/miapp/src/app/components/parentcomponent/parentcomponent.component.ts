@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./parentcomponent.component.css']
 })
 export class ParentcomponentComponent implements OnInit {
-
+  nombreparent = "un nombre"
   constructor() { }
 
   ngOnInit(): void {
